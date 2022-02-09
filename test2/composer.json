@@ -1,0 +1,20 @@
+{
+    "name": "damar/test2",
+    "description": "this is my interview test",
+    "license": "MIT",
+    "keywords": ["avana"],
+    "authors": [
+        {
+        "name": "Damar Margi W",
+        "email": "margi.landshark@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.19"
+    },
+    "autoload": {
+        "psr-4": {
+            "Avana\\Test2\\": "src"
+        }
+    }
+}
